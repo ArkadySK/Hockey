@@ -9,7 +9,7 @@ namespace Hockey
     /// <summary>
     /// Hokejovy hrac.
     /// </summary>
-    internal class HockeyPlayer
+    internal abstract class HockeyPlayer
     {
         internal string FirstName { get; }
         internal string LastName { get; }
